@@ -42,6 +42,7 @@ public class ImageClassifierHelper {
     private static final int MODEL_EFFICIENTNETV2 = 3;
     private static final int MY_CUSTOM_MODEL = 4;
     private static final int MY_CUSTOM_QUANT_MODEL = 5;
+    private static final int CLOTHES_MODEL = 6;
 
     private float threshold;
     private int numThreads;
@@ -160,6 +161,9 @@ public class ImageClassifierHelper {
                 modelName = "model.tflite";
             case MY_CUSTOM_QUANT_MODEL:
                 modelName = "model_quant.tflite";
+                break;
+            case CLOTHES_MODEL:
+                modelName = "model_clothes.tflite";
                 break;
             default:
                 modelName = "mobilenetv1.tflite";

@@ -54,5 +54,6 @@
         <item>EfficientNet Lite2</item>
         <item>Nike vs Adidas</item>
         <item>Nike vs Adidas Quant</item>
+        <item>Clothes Model</item>
     </string-array>
 </resources>
